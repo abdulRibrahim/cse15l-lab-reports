@@ -1,0 +1,1 @@
+![Image](http://screenshot.png)
