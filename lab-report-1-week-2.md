@@ -17,31 +17,31 @@ Once you are logged into the server, it’s good to try and run some commands an
 * ls -a
 * ls <directory> (input a directory in the directory space)
 
-![Image](screenshot2)
+![Image](screenshot2.png)
 
 In order to log out of the remote server from the terminal you can either use the shortcut Ctrl-D or the command: exit.
 
-![Image](screenshot4)
+![Image](screenshot4.png)
 
 # [Moving Files with scp] 
 Being connected to the server means that you can transfer files back and forth between the client and the server. I created a file named WhereAmI.java and placed some code in it. 
 In order to transfer files use the command scp and type: `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
 The address at the end will be the same one used to log in. After typing the command, use the same password used to log in. In the terminal, the result should look something like this:
 
-![Image](screenshot6)
+![Image](screenshot6.png)
 
 # [Setting an SSH Key]
 It is very time consuming having to type or paste long commands while logging in or transferring files back and forth. To combat this, an SSH key can be generated to use in place of a password. 
 In order to do this, on my computer command prompt, I typed ssh-keygen. The command window will ask where you want the key files to be generated, as well as a passphrase (can be empty). The result is two created files on my system, the private key in the file id_rsa and the public key in the file id_rsa.pub. 
 The command prompt will look like this:
 
-![Image](screenshot3)
+![Image](screenshot3.png)
 
 # [Optimizing Remote Running]
 An optimal way to run commands on the server is to type them out in one line. At the end of an ssh command, you can write a command in quotes at the end to immediately run the command following the first one (screenshot).
 You can also use the up arrow key on your keyboard to access the last command that was run.
 
-![Image](screenshot4)
+![Image](screenshot4.png)
 
 
 
