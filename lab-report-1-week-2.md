@@ -15,12 +15,12 @@ Once all this is done, open a terminal in VSCode and enter in the command: `ssh 
 
 # [Trying some commands] 
 Once you are logged into the server, it’s good to try and run some commands and see what happens. Some useful commands include:
-* cd ~
-* cd
-* ls -lat
-* mkdir (filename) where file name is the name of the file
-* ls -a
-* ls <directory> (input a directory in the directory space)
+* `cd ~`
+* `cd`
+* `ls -lat`
+* `mkdir (filename)` where file name is the name of the file
+* `ls -a`
+* `ls <directory>` (where `<directory>` a directory in the directory space)
 
 ![Image](screenshot2.png)
 
@@ -44,9 +44,18 @@ The command prompt will look like this:
 
 # [Optimizing Remote Running]
 An optimal way to run commands on the server is to type them out in one line. At the end of an ssh command, you can write a command in quotes at the end to immediately run the command following the first one.
-You can also use the up arrow key on your keyboard to access the last command that was run.
+You can also use the up arrow key on your keyboard to access the last command that was run for a total of one key stroke. Accessing elements before that adds one more keystroke per press of the up-arrow key.
+
+If we want to count the total keystrokes used to login (First log in), run a command to view the directory tree, and access the last command used, the breakdown is as follows:
+
+- Typing out ssh (your_unique_email_here) "ls" 
+    - If we use copy and paste for the email, the total keystrokes are 
+    9. 3 Keystrokes to type ssh, 2 for ctrl + V, and 4 for "ls".
+- Accessing the last command used will be one keystroke for using the up arrow, for a total of 10 keystrokes. 
 
 ![Image](screenshot8.png)
+
+
 
 
 
