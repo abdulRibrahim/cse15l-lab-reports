@@ -18,7 +18,7 @@ Once you are logged into the server, it’s good to try and run some commands an
 * `cd ~`
 * `cd`
 * `ls -lat`
-* `mkdir (filename)` where file name is the name of the file
+* `mkdir (filename)` where filename is the name of the file
 * `ls -a`
 * `ls <directory>` (where `<directory>` a directory in the directory space)
 
