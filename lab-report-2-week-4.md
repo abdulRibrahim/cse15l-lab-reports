@@ -38,7 +38,7 @@ The output:
  Because the syntax of showcasing links and image location is similar, the code displayed them as equivalents. The program depends on the syntax of a link label between brackets followed immediately by an actual link enclosed in parenthesis. It does not know how to differentiate between a link and an image.
 
  The fix:
- ![Image](bugfix3)
+ ![Image](bugfix3.png)
 
  The following code was added to a helper method getLinks. This method helped the program differentiate between website links and image links by only returning strings that did not start with an "!" character.
 
