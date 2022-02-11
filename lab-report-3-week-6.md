@@ -30,6 +30,7 @@ and typed in:
     `User cs15lwi22zzz (use your username)`.
 
 Opening the file in VSCode, the file looks liks this:
+
 ![Image](vsconfig.png)
 
 Now we can log into the server with the newly created config file and not have to type out the entire username. We will however, still need to type out our password. The result will look something like this:
