@@ -27,12 +27,13 @@ Then, to open the file I typed in the command:
 and typed in:
 `Host ieng6`
     `HostName ieng6.ucsd.edu`
-    `User cs15lwi22zzz (use your username)`
+    `User cs15lwi22zzz (use your username)`.
 
 Opening the file in VSCode, the file looks liks this:
 ![Image](vsconfig.png)
 
 Now we can log into the server with the newly created config file and not have to type out the entire username. We will however, still need to type out our password. The result will look something like this:
+
 ![Image](sshieng6.png)
 
 We can also combine this shortcut and use scp within the same command line like so:
