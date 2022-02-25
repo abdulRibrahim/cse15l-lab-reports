@@ -12,20 +12,20 @@
 # [Snippet 1]
 Using the CommonMark demo site, I concluded that the snippet of code should produce 2 links: `google.com and ucsd.edu.
 
-##### [My repository]
+##### [My repository]  
 
-Code in MarkdownParseTest.java:
+Code in MarkdownParseTest.java:  
 ![Image](snip1code.png) 
 
-Output when running the test:
-![Image](fail1.png)
+Output when running the test:  
+![Image](fail1.png)  
 The test did not pass.
 
 ##### [Reviewed repository]
 Note: For some reason, the reviewed group repository had never created a testing class nor a make file. I had to create them both in a cloned version of their code.
 
 Output when running the test:
-![Image](groupfail1.png)
+![Image](groupfail1.png)  
 The test did not pass.
 
 
@@ -33,20 +33,20 @@ The test did not pass.
 # [Snippet 2]
 Using the CommonMark demo site, I concluded that the snippet of code should produce 3 links: a.com, a.com((, example.com.
 
-##### [My repository]
+##### [My repository]  
 
-Code in MarkdownParseTest.java:
+Code in MarkdownParseTest.java:  
 ![Image](snip2code.png) 
 
-Output when running the test:
-![Image](fail2.png)
+Output when running the test:  
+![Image](fail2.png)  
 The test did not pass.
 
-##### [Reviewed repository]
+##### [Reviewed repository]  
 Note: For some reason, the reviewed group repository had never created a testing class nor a make file. I had to create them both in a cloned version of their code.
 
-Output when running the test:
-![Image](groupfail2.png)
+Output when running the test:  
+![Image](groupfail2.png)  
 The test did not pass.
 
 
@@ -54,20 +54,20 @@ The test did not pass.
 # [Snippet 3]
 Using the CommonMark demo site, I concluded that the snippet of code should produce 3 links:  https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, and https://cse.ucsd.edu/.
 
-##### [My repository]
+##### [My repository]  
 
-Code in MarkdownParseTest.java:
+Code in MarkdownParseTest.java:  
 ![Image](snip3code.png) 
 
-Output when running the test:
-![Image](fail3.png)
+Output when running the test:  
+![Image](fail3.png)  
 The test did not pass.
 
 ##### [Reviewed repository]
 Note: For some reason, the reviewed group repository had never created a testing class nor a make file. I had to create them both in a cloned version of their code.
 
 Output when running the test:
-![Image](groupfail3.png)
+![Image](groupfail3.png)  
 The test did not pass.
 
 
