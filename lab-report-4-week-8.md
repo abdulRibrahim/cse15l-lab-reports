@@ -24,8 +24,8 @@ The test did not pass.
 ##### [Reviewed repository]
 Note: For some reason, the reviewed group repository had never created a testing class nor a make file. I had to create them both in a cloned version of their code.
 
-Output when running the test:
-![Image](groupfail1.png)  
+Output when running the test:  
+![Image](groupfail1.png)    
 The test did not pass.
 
 
