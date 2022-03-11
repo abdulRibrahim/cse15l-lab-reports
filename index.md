@@ -6,4 +6,4 @@
 
 [Lab Report 4](https://github.com/abdulRibrahim/cse15l-lab-reports/blob/main/lab-report-4-week-8.md)
 
-[Lab Report 5]()
+[Lab Report 5](https://github.com/abdulRibrahim/cse15l-lab-reports/blob/main/lab-report-5-week-10.md)
